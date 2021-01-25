@@ -1,0 +1,1 @@
+rewrite ^/content/list/([0-9]+).html$ /content/list.php?id=$1 last;
